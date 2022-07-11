@@ -1,4 +1,4 @@
-class AddBook {
+export class AddBook {
     constructor(ID, Title, Author) {
       this.ID = ID;
       this.Title = Title;
@@ -6,7 +6,7 @@ class AddBook {
     }
   }
   
-  const add = document.querySelector('#add');
+  /* const add = document.querySelector('#add');
   add.addEventListener('click', () => {
     const ID = bookIDgenerator();
     const title = document.querySelector('#title').value;
@@ -22,4 +22,4 @@ class AddBook {
       libraryArr.push(newBook);
       localStorage.setItem('libraryArr', JSON.stringify(libraryArr));
     }
-  });
+  }); */
