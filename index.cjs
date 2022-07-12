@@ -1,4 +1,4 @@
-import { bookIDgenerator } from './modules/books.js';
+import bookIDgenerator from './modules/books.js';
 import AddBook from './modules/addBook.js';
 
 import clearBooks from './modules/clearAllBooks.js';
