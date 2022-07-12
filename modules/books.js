@@ -1,4 +1,4 @@
-export default function bookIDgenerator() {
+export function bookIDgenerator() {
   let previousID = JSON.parse(localStorage.getItem('bookIDgenerator'));
   const newID = previousID + 1;
   if (previousID == null) {

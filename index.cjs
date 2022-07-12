@@ -1,8 +1,8 @@
-import bookIDgenerator from './modules/books.js';
+import { bookIDgenerator } from './modules/books.js';
 import AddBook from './modules/addBook.js';
 
-import clearBooks from './modules/clearAllBooks.js';
-import printBooks from './modules/showBooks.js';
+import { clearBooks } from './modules/clearAllBooks.js';
+import { printBooks } from './modules/showBooks.js';
 import { DateTime } from './modules/luxon.js';
 
 const now = DateTime.now();
