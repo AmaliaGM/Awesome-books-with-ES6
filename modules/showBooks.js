@@ -1,4 +1,4 @@
-export function printBooks() {
+export default function printBooks() {
   const bookList = document.getElementById('book-list');
   const libraryArr = JSON.parse(localStorage.getItem('libraryArr'));
 
